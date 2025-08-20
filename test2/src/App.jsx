@@ -15,13 +15,14 @@ function App() {
     <div className="container mt-4">
       <h1 className="text-center mb-4">Student Marks Average</h1>
       <div className="row">
-        <div className="col-md-4">
+        <div className="col-md-4 mb-3">
+
           <English students={students} />
         </div>
-        <div className="col-md-4">
+        <div className="col-md-4 mb-3">
           <Hindi students={students} />
         </div>
-        <div className="col-md-4">
+        <div className="col-md-4 mb-3">
           <Math students={students} />
         </div>
       </div>
