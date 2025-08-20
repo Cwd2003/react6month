@@ -4,7 +4,7 @@ import Data from './assets/Data'
 function App() {
   return (
     <div>
-      <Data/>
+      <Data />
     </div>
   )
 }
