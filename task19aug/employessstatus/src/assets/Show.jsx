@@ -14,9 +14,11 @@ function Show({ employees }) {
 
   return (
     <div>
-      <div>
-        <h2>Employee Data</h2>
+      <div style={{ display: "flex", justifyContent: "center", alignItems: "center", flexDirection: "column", marginTop: "20px" }}>
+        <h2 style={{ textAlign: "center" }}>Employee Data</h2>
         <table border="1" cellPadding="10" style={{ borderCollapse: "collapse", marginTop: "10px" }}>
+          {/* table content */}
+
           <thead>
             <tr>
               <th>Joining Date</th>
